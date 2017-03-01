@@ -1,3 +1,6 @@
+// Fred Limouzin
+// 24/02/2017
+
 class Turtle {
   float angle; // angle !
   float angleRad;
@@ -140,7 +143,7 @@ class Turtle {
   color setColor (String colorName) {
     color c;
     switch (colorName.toLowerCase()) {
-      case "black"   : case "noir"   : c = color(0,   0,   0);   break;
+      case "black"   : case "noir"    : c = color(0,   0,   0);   break;
       case "dgray"   : case "grisf"   : c = color(64,  64,  64);  break;
       case "gray"    : case "gris"    : c = color(128, 128, 128); break;
       case "silver"  : case "argent"  : c = color(192, 192, 192); break;
@@ -255,7 +258,7 @@ class Turtle {
         case "ct" : case "cachetortue" : case "hide" : case "ht" : case "hideturtle" :
           this.setTurtleInvisible();
           break;
-        case "mt" : case "montretortue" : case "show" : case "st" : case "shoqturtle" :
+        case "mt" : case "montretortue" : case "show" : case "st" : case "showturtle" :
           this.setTurtleVisible();
           break;
           

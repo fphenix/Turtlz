@@ -1,0 +1,158 @@
+class Docum {
+  
+         //ve :  videecran :  cs :  clearscreen :
+         // initialize and clearScreen
+         // ex: ve
+
+         //net :  nettoie :  clean :
+         // clearScreen
+         // ex: net
+
+         //td :  tournedroite :  turnright :  rt :
+         // turnRight angleDeg
+         // ex: td 45
+          
+         //tg :  tournegauche :  turnleft :  lt :
+         // turnLeft angleDeg
+         // ex: tg 66
+          
+         //dr :  droite :  right :  est :  east :
+         // setAngle 0°
+         // ex: dr
+          
+         //ga :  gauche :  left :  ouest :  west :
+         // setAngle 180°
+         // ex: ga
+          
+         //haut :  up :  nord :  north :
+         // setAngle 90°
+         // ex: up
+          
+         //bas :  down :  sud :  south :
+         // setAngle -90°
+         // ex: bas
+        
+         //avance :  av :  fd :  forward :
+         // moveForward lengthpixels
+         // ex: av 100
+          
+         //recule :  re :  bk :  back :
+         // moveBack lengthpixels   
+         // ex: re 50
+          
+         //cc :  couleurcrayon :  fixecouleurcrayon :  fcc :  setpc : 
+         // setPenColor color
+         // ex: cc red
+          
+         //cf :  couleurfond :  bg :  fcfg :  fixecouleurfond :  setbg : 
+         // setCanvasColor color
+         // ex: bg black
+          
+         //ct :  cachetortue :  hide :  ht :  hideturtle :
+         // setTurtleInvisible
+         // ex: ct
+          
+         //mt :  montretortue :  show :  st :  showturtle :
+         // setTurtleVisible
+         // ex: mt
+          
+         //lc :  levecrayon :  pu :  penup :
+         // setPenUp
+         // ex: pu
+          
+         //bc :  baissecrayon :  pd :  pendown :
+         // setPenDown
+         // ex: bc
+  
+         //orig :  origine :  home :
+         // setUserPos 0 0
+         // ex: orig
+          
+         //position :  pos :  posxy :  goto :  setxy :  fixexy : 
+         // setUserPos xpos ypos
+         // ex: pos -100 100
+          
+         //positionx :  posx :  fixex :
+         // setUserPosX xpos
+         // ex: posx 50
+          
+         //positiony :  posy :  fixey :
+         // setUserPosY ypos
+         // ex: posy -200
+          
+         //cap :
+         // setAngle angle°
+         // ex: cap 90
+          
+         //ep :  epaisseur :  weight :  w :
+         // setStrkW weight
+         // ex: ep 2
+          
+         //vitesse :  speed :
+         // setSpeed speed
+         // ex: speed 1
+          
+         //ecris :  write :  texte :  text :
+         // write text
+         // ex: text hello my name is Turtle!
+          
+         //rep :  repete :  repeat :
+         // repeat iteration
+         //finrep :  finrepete :  endrepeat :
+         // ex: rep 4
+         //        td 90
+         //        av 100
+         //     finrep
+           
+         //pour :  to :
+         // Procedure name arguments-name
+         //finpour :  endto
+         // ex: pour square len
+         //       rep 4
+         //         td 90
+         //         av len
+         //       finrep
+         //     finpour
+         //     square 50
+              
+         //var :  variable :
+         // SetVariable name value
+         // ex: var llx 150
+          
+         //stop :
+         // setStop
+         // ex: stop
+        
+         //; :  // :
+         // Ignored
+         // ex: ; commentaire
+      
+      //Colornames supported :
+      //   black   :  noir
+      //   dgray   :  grisf
+      //   gray    :  gris
+      //   silver  :  argent
+      //   white   :  blanc
+      //   maroon  :  marron
+      //   red     :  rouge
+      //   olive 
+      //   dred    :  rougef
+      //   yellow  :  jaune
+      //   green   :  vert
+      //   lgreen  :  vertc
+      //   teal  
+      //   bluello :  blaune
+      //   cyan
+      //   navy
+      //   blue    :  bleu
+      //   lblue   :  bleuc
+      //   purple  :  pourpre
+      //   fushia  :  fuchia
+      //   orange
+      //   piggy   :  cochon 
+      //   pink    :  rose 
+      
+      Docum () {
+      }
+   
+}
