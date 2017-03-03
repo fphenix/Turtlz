@@ -1,16 +1,14 @@
-class Docum {
-  
          //ve :  videecran :  cs :  clearscreen :
          // initialize and clearScreen
          // ex: ve
 
          //net :  nettoie :  clean :
          // clearScreen
-         // ex: net
+         // ex: clean
 
          //td :  tournedroite :  turnright :  rt :
          // turnRight angleDeg
-         // ex: td 45
+         // ex: turnright 45
           
          //tg :  tournegauche :  turnleft :  lt :
          // turnLeft angleDeg
@@ -151,8 +149,4 @@ class Docum {
       //   orange
       //   piggy   :  cochon 
       //   pink    :  rose 
-      
-      Docum () {
-      }
-   
-}
+ 
